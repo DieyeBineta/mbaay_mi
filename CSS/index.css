@@ -1,0 +1,97 @@
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 16px;
+    font-style: normal;
+    line-height: 30px;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFF;
+
+}
+.header{
+    background-color: #103120;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #473B2D;
+    color: #FFFF;
+    padding: 10px 18px ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.logo img{
+    height: 80px;
+}
+.jumbo{
+    background: url(../image/Rectangle\ 11.png);
+    padding: 180px;
+}
+.jumbo-item{
+    width: 450px;
+    color: #FFFF;
+}
+.btns{
+    background-color: #473B2D;
+    color: #FFFF;
+    padding: 10px 18px ;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
