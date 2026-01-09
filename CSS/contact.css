@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../image/imgmbaymi.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: white;
+    padding: 15px 40px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #103120;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-top: 200px !important;
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #103120;
+    margin-bottom: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #103120;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #103120;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b2417;
+}
