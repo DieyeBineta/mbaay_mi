@@ -1,0 +1,152 @@
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHIE */
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 16px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+}
+span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+}
+
+/* HEADER */
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFF;
+
+}
+.header{
+    background-color: #103120;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #473B2D;
+    color: #FFFF;
+    padding: 10px 18px ;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.logo img{
+    height: 80px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.footer-lien ul{
+    list-style: none;
+    gap: 45px;
+    padding-left: 0;
+}
+.footer-lien a{
+    text-decoration: none;
+    color: #FFFF;
+    margin-top: 15px;
+    display: block;
+}
+footer{
+    background-color: #473B2D;
+    margin-top: 100px;
+    color: #FFF;
+    padding: 70px;
+    
+}
+footer h3{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-letter button{
+    border: none;
+    width: 100%;
+   
+}
+.footer-letter h4{
+    text-align: center;
+}
+.footer-letter input{
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.letter{
+    background-color: #103120;
+    padding: 25px;
+}
+
+.logo-footer p{
+    color: #AEAEAE;
+}
+
+.logo-footer img{
+    margin-bottom: -50px;
+}
