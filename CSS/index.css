@@ -201,6 +201,10 @@ footer h3{
 label{
     display: block;
     margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
 }
 .footer-letter button{
     border: none;
