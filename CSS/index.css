@@ -43,11 +43,17 @@ a{
     font-style: 15px;
     font-style: normal;
 }
+span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+}
 
 .menu ul{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 45px;
 }
 .menu a{
     text-decoration: none;
@@ -80,7 +86,7 @@ a{
 }
 .jumbo{
     background: url(../image/Rectangle\ 11.png);
-    padding: 180px;
+    padding: 170px;
 }
 .jumbo-item{
     width: 450px;
@@ -92,6 +98,126 @@ a{
     padding: 10px 18px ;
     border-radius: 10px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 17px;
     display: inline-block;
+}
+.propos{
+    display: flex;
+    gap: 20px;
+}
+.apropos{
+    padding-top: 100px;
+}
+.apropos p{
+    line-height: 35px;
+}
+.annoce-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.cards{
+    background-color: #FFFf;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease , box-shadow 0.3 ease;
+    padding: 16px;
+    border: 1px solid #473B2D;
+
+}
+.cards img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+.annoces h2{
+    text-align: center;
+
+}
+
+.annoces{
+    padding-top: 100px;
+}
+.prix{
+    display: block;
+    font-weight: bold;
+    color: #103120;
+    margin-bottom: 10px;
+}
+.button-abonner{
+    width: 100%;
+    padding: 12px;
+    background-color:#473B2D;
+    color: #FFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.infos a{
+    display: flex;
+    gap: 5px;
+    color:#AEAEAE;
+    text-decoration: none;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.footer-lien ul{
+    
+    list-style: none;
+    gap: 45px;
+}
+.footer-lien a{
+    text-decoration: none;
+    color: #FFFF;
+    margin-top: 15px;
+    display: block;
+}
+footer{
+    background-color: #473B2D;
+    margin-top: 100px;
+    color: #FFF;
+    padding: 70px;
+    
+}
+footer h3{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-letter button{
+    border: none;
+    width: 100%;
+   
+}
+.footer-letter h4{
+    text-align: center;
+}
+.footer-letter input{
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.letter{
+    background-color: #103120;
+    padding: 25px;
+
 }
