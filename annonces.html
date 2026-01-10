@@ -7,6 +7,102 @@
     <link rel="stylesheet" href="./CSS/annonces.css">
 </head>
 <body>
+  <header class="header">
+        <div class="container">
+            <div class="main-menu">
+                <div class="logo">
+                    <img src="./image/ChatGPT Image 8 janv. 2026, 17_25_31 1.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="./index.html">Acceuil</a></li>
+                        <li><a href="./annonces.html">Annoces</a></li>
+                        <li><a href="./">A propos</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-btn">
+                    <a href="./annonces.html" class="btn">Voir Annoces</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
     
+   <main class="main">
+        <section class="jumbo">
+            <div class="jumbotrun">
+                <div class="container">
+                    <div class="text">
+                        <h1>Toutes nos annonces</h1>
+                        <p>Simplifiez votre agriculture avec Mbaay gérez vos cultures et augmentez vos récoltes facilement</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="recherche">
+            <div class="container">
+                <div class="search">
+                <select id="categorie">
+                    <option value="">Categorie</option>
+                </select>
+                <select id="zone">
+                    <option value="">Zone</option>
+                </select>
+                <select id="prix">
+                    <option value="">Prix</option>
+                </select>
+                <button class="select-btn">Rechercher</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="annoces">
+            <div class="container">
+                <h2>Nos Annoces</h2>
+                <div class="annoce-cards">
+                    <div id="cards"></div>
+                    
+                </div>
+            </div>
+                
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="logo-footer">
+                        <img src="./image/ChatGPT Image 8 janv. 2026, 17_25_31 1.png" alt="">
+                        <p>Simplifiez votre agriculture avec Mbaay gérez vos cultures et augmentez vos récoltes facilement</p>
+                    </div>
+                </div>
+                <div class="footer-lien">
+                     <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="./index.html">Acceuil</a></li>
+                        <li><a href="./annonces.html">Annoces</a></li>
+                        <li><a href="./">A propos</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                    <div class="footer-letter">
+                        <h4>Newletters</h4>
+                        <div class="letter">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="Exemple@gmail.com">
+                            <button class="button-abonner">Envoyer</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </footer>
+
+    <script src="./JS/annonces.js"> </script>
+    <p>Total abonnements : <span id="totalAbonnements">0</span></p>
+
 </body>
 </html>
