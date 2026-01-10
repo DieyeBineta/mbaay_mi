@@ -5,6 +5,26 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F1E8;
+}
+
+.button-abonner{
+    width: 100%;
+    padding: 12px;
+    background-color:#473B2D;
+    color: #FFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: 15px;
+    font-style: normal;
+    border: #473B2D;
+}
+
+.button-abonner:hover{
+    background-color: #2B704E;
 }
 
 /* TYPOGRAPHIE */
@@ -73,6 +93,7 @@ span{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2000;
 }
 
 .main-menu{
@@ -86,6 +107,10 @@ span{
     padding: 10px 18px ;
     border-radius: 8px;
     text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #2B704E;
 }
 .logo img{
     height: 80px;

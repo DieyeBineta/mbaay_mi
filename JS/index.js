@@ -5,21 +5,21 @@ const annonces = [
     description: "Aubergines fraîches issues de l'agriculture locale.",
     prix: "12000 FCFA / Sac",
     lieu: "Dakar",
-    image: "./image/eggplant healthy food vegetable vegetarian eggplant png.jfif"
+    image: "./assets/image/eggplant healthy food vegetable vegetarian eggplant png.jfif"
   },
   {
     titre: "Pommes de Terre",
     description: "Pommes de terre de qualité supérieure.",
     prix: "8000 FCFA / Sac",
     lieu: "Thiès",
-    image: "./image/téléchargement (10).jfif"
+    image: "./assets/image/téléchargement (10).jfif"
   },
   {
     titre: "Concombre",
     description: "Concombres fraîches issues de l'agriculture locale.",
     prix: "5000 FCFA / Kg",
     lieu: "Saint-Louis",
-    image: "./image/téléchargement (11).jfif"
+    image: "./assets/image/téléchargement (11).jfif"
   }
  
   

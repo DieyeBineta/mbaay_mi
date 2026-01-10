@@ -1,51 +1,19 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-image: url("../image/imgmbaymi.png");
+.contact-container {
+    background-image: linear-gradient(#00000050, #00000050), url("../assets/image/imgmbaymi.png");
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
-}
-
-header {
-    background-color: white;
-    padding: 15px 40px;
-}
-
-
-nav {
+    padding: 100px 0;
+    margin-top: 100px !important;
     display: flex;
-    justify-content: flex-end;
-    gap: 30px;
+    justify-content: center;
 }
 
-nav a {
-    text-decoration: none;
-    color: #103120;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-
-.contact-container {
-    max-width: 500px;
-    margin: 80px auto;
-    padding: 25px;
-    background-color: white;
+.back-contact{
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    margin-top: 200px !important;
+    padding: 25px;
+    min-width: 500px;
+    background-color: white;
+
 }
 
 .contact-container h1 {
@@ -71,20 +39,11 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
+    box-sizing: border-box;
 }
 
 
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #103120;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
+footer{
+    margin-top: 0 !important;
 }
 
-button:hover {
-    background-color: #0b2417;
-}
